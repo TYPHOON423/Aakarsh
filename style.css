@@ -1,0 +1,48 @@
+body {
+  background-color: greenyellow;
+  background-image: url(Pokemon.png);
+  background-repeat: repeat-y;
+  background-position: center;
+  background-attachment: local;
+}
+
+h2 {
+  color: orangered;
+  text-align: center;
+  text-decoration:underline;
+  font-style: italic;
+  font-size: 60px;
+}
+
+hr {
+  display: block;
+  border-top: 2px solid magenta;
+  margin: 1em 0;
+}
+p {
+  text-align:justify;
+  font-family: "Algerian";
+  font-size: 50px;
+}
+
+table {
+  font-size: 50px;
+  font-family: "Algerian";
+}
+
+a{
+  color: purple;
+}
+
+a:link, a:visited {
+  background-color: lawngreen;
+  color: red;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+a:hover, a:active {
+  background-color: coral;
+}
